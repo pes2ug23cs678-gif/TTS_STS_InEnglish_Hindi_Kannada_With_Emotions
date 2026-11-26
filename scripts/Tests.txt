@@ -1,0 +1,31 @@
+1.) English Input: David took the morning train from Bengaluru to Mangaluru to meet Kiriti sir.
+Our Model:
+Kannada Output: ಡೇವಿಡ್ ಕಿರಿತಿ ಸರ್ ಅವರನ್ನು ಭೇಟಿ ಮಾಡಲು ಬೆಳಗಿನ ರೈಲಿನಲ್ಲಿ ಬೆಂಗಳೂರಿನಿಂದ ಮಂಗಳೂರಿನತ್ತ ಪ್ರಯಾಣಿಸಿದನು.
+Hindi Output: डेविड ने किरिती सर से मिलने के लिए बेंगलुरु से मंगलुरु जाने वाली सुबह की ट्रेन में सफर किया।
+Google Translate:
+Kannada Output: ಕೀರಿತಿ ಸರ್ ಅವರನ್ನು ಭೇಟಿಯಾಗಲು ಡೇವಿಡ್ ಬೆಂಗಳೂರಿನಿಂದ ಮಂಗಳೂರಿಗೆ ಬೆಳಗಿನ ರೈಲಿನಲ್ಲಿ ತೆರಳಿದರು.
+2.) English Input: The smart water distribution system is running seamlessly
+Our Model:
+Kannada Output: ಸ್ಮಾರ್ಟ್ ನೀರಿನ ವಿತರಣಾ ವ್ಯವಸ್ಥೆಯು ಮನಬಂದಂತೆ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತಿದೆ.
+Hindi Output: स्मार्ट जल वितरण प्रणाली निर्बाध रूप से चल रही है। 
+Google Translate:
+Kannada Output: ಸ್ಮಾರ್ಟ್ ನೀರು ವಿತರಣಾ ವ್ಯವಸ್ಥೆಯು ಸುಗಮವಾಗಿ ಕಾರ್ಯನಿರ್ವಹಿಸುತ್ತಿದೆ.
+3.) English Input: Watch out! The heavy container is falling!
+Our Model:
+Kannada Output: ಎಚ್ಚರ. ಭಾರೀ ಧಾರಕವು ಬೀಳುತ್ತಿದೆ!
+Hindi Output: ध्यान से!। भारी पात्र गिर रहा है!
+Google Translate:
+Kannada Output: ಎಚ್ಚರ! ಆ ಭಾರವಾದ ಕಂಟೇನರ್ ಬೀಳುತ್ತಿದೆ!
+Speech case:
+1.) English Input: Please give me a cup of coffee along with biscuits.
+Our Model:
+Kannada Output: ದಯವಿಟ್ಟು ನನಗೆ ಬಿಸ್ಕತ್ತುಗಳ ಜೊತೆಗೆ ಒಂದು ಕಪ್ ಕಾಫಿಯನ್ನು ಕೊಡಿ.
+Hindi Output: कृपया मुझे बिस्कुट के साथ एक कप कॉफी दें।
+Google Translate:
+Kannada Output: ದಯವಿಟ್ಟು ನನಗೆ ಬಿಸ್ಕತ್ತುಗಳೊಂದಿಗೆ ಒಂದು ಕಪ್ ಕಾಫಿ ಕೊಡಿ.
+2.) English Input: What are the rooms available for a family of 4 in this hotel from 20th of October to 30th of October? Could you please look into the vacancies and come back to this number?
+Our Model:
+Kannada Output: ಅಕ್ಟೋಬರ್ 20ರಿಂದ ಅಕ್ಟೋಬರ್ 30ರವರೆಗೆ ಈ ಹೋಟೆಲ್ನಲ್ಲಿ 4 ಜನರಿರುವ ಕುಟುಂಬಕ್ಕೆ ಯಾವ ಕೋಣೆಗಳು ಲಭ್ಯವಿವೆ. ನೀವು ದಯವಿಟ್ಟು ಖಾಲಿ ಹುದ್ದೆಗಳನ್ನು ಪರಿಶೀಲಿಸಿ ಈ ಸಂಖ್ಯೆಗೆ ಹಿಂತಿರುಗಬಹುದೇ?
+Hindi Output: 20 अक्टूबर से 30 अक्टूबर तक इस होटल में 4 लोगों के परिवार के लिए कौन - से कमरे उपलब्ध हैं। क्या आप कृपया रिक्तियों को देख सकते हैं और इस संख्या पर वापस आ सकते हैं? 
+Google Translate:
+Kannada Output: ಈ ಹೋಟೆಲ್‌ನಲ್ಲಿ ಅಕ್ಟೋಬರ್ 20 ರಿಂದ ಅಕ್ಟೋಬರ್ 30 ರವರೆಗೆ 4 ಜನರ ಕುಟುಂಬಕ್ಕೆ ಯಾವ ಕೊಠಡಿಗಳು ಲಭ್ಯವಿವೆ? ದಯವಿಟ್ಟು ಲಭ್ಯತೆಯನ್ನು ಪರಿಶೀಲಿಸಿ, ಈ ಸಂಖ್ಯೆಗೆ ಮಾಹಿತಿ ನೀಡಬಲ್ಲಿರಾ?

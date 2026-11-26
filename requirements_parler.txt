@@ -1,0 +1,18 @@
+# Indic-Parler-TTS — local, expressive TTS engine (English + Indic, incl. Hindi & Kannada).
+# Optional: install IN ADDITION to requirements.txt only if you want the local Parler engine.
+# The engine is enabled by default but loads defensively, so the app still runs without this.
+#
+# 1) Install the Parler runtime (published from the Hugging Face repo):
+        pip install git+https://github.com/huggingface/parler-tts.git
+#
+# 2) The model is GATED on Hugging Face. Request access to:
+#        https://huggingface.co/ai4bharat/indic-parler-tts
+#    then authenticate once:
+#        huggingface-cli login
+#
+# NOTE: parler-tts may require a specific `transformers` build that can differ from the
+# version pinned in requirements.txt. If pip reports a conflict, install Parler in its own
+# virtual environment, or set ENABLE_PARLER=0 to run without it.
+#
+# To disable the local engine without uninstalling anything:
+#        export ENABLE_PARLER=0

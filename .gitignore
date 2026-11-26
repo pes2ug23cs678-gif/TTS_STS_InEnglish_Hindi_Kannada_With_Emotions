@@ -1,0 +1,83 @@
+# ---- Secrets / local config (NEVER commit) ----
+.env
+.env.local
+.env.*.local
+# .env.example is intentionally tracked (placeholders only)
+
+# ---- TLS certs / keys (NEVER commit a private key) ----
+*.pem
+*.key
+*.crt
+sts-cert.pem
+sts-key.pem
+
+# ---- Databases (contain user accounts) ----
+sts_dev.db
+*.db
+*.sqlite
+*.sqlite3
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# ---- Virtual environments ----
+clean_env/
+venv/
+.venv/
+env/
+
+# ---- Generated audio output ----
+audio/
+mos_evaluations*.jsonl
+
+# ---- Generated evaluation reports / run artifacts ----
+precision_report.csv
+precision_summary.txt
+ab_results*.csv
+pipeline_report.csv
+demo_check_results.txt
+
+# ---- Model weights / converted models (download or convert locally, never commit) ----
+ct2_models/
+models/
+.cache/
+hf_cache/
+*.ckpt
+*.pt
+*.bin
+*.safetensors
+*.ftz
+*.zip
+*.tar
+*.tar.gz
+*.gz
+
+# ---- Logs ----
+*.log
+
+# ---- Binaries / downloaded tools ----
+cloudflared
+
+# ---- One-time cleanup script (tooling, not part of the app) ----
+cleanup_repo.sh
+
+# ---- Mobile app: UNCOMMENT the next line to keep the Flutter client OUT of this repo ----
+# sts_app/
+
+# ---- Backups / editor / OS ----
+*.bak
+*.bak_*
+*.swp
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+sts_app/
+run_log.txt
+run_log.txt
